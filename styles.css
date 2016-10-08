@@ -1,6 +1,7 @@
 .seat-chart {
   width: 90%;
   margin: 0 auto;
+
 }
 
 .available {
@@ -17,4 +18,8 @@
   margin: auto;
   min-height: 100px;
   display: inline-block;
+}
+
+h1 {
+  font-family: Time;
 }
