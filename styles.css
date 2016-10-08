@@ -10,6 +10,7 @@
   margin: auto;
   min-height: 100px;
   display: inline-block;
+  border-radius: 3%;
 }
 
 .reserved {
@@ -18,6 +19,7 @@
   margin: auto;
   min-height: 100px;
   display: inline-block;
+  border-radius: 3%;
 }
 
 h1 {
