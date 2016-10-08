@@ -5,25 +5,28 @@ body {
 .seat-chart {
   width: 100%;
   margin: 0 auto;
+  text-align: center;
 
 }
 
 .available {
+  display: block;
   background-image: url(availableSeat.png);
   background-repeat: no-repeat;
   background-size: 75%;
   width: 14%;
-  margin: auto;
+  margin: 0 auto;
   min-height: 100px;
   display: inline-block;
   }
 
 .reserved {
+  display: block;
   background-image: url(reservedSeat.png);
   background-repeat: no-repeat;
   background-size: 75%;
   width: 14%;
-  margin: auto;
+  margin: 0 auto;
   min-height: 100px;
   display: inline-block;
   }
@@ -39,6 +42,6 @@ p {
    color: #E8E8E8;
 }
 .row {
-  margin: auto;
+  margin: 0 auto;
   width: 100%;
 }
