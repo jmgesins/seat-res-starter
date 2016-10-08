@@ -1,3 +1,7 @@
+body {
+  background-image: url(images/background2.jpg);
+}
+
 .seat-chart {
   width: 100%;
   margin: 0 auto;
@@ -25,7 +29,14 @@
   }
 
 h1 {
-  font-family: Time;
+  font-family: Quicksand; Time;
+  text-align: center;
+  color: #E8E8E8;
+}
+
+p {
+  text-align: center;
+   color: #E8E8E8;
 }
 .row {
   margin: auto;
