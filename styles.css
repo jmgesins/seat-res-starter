@@ -1,11 +1,22 @@
+@font-face {
+  font-family: greatVibe
+  src: url(fonts/great_vibes/greatvibes.ttf);
+}
+
 body {
-  background-image: url(images/background2.jpg);
+  background-image: url(images/background4.jpg);
+  background-size: 100% 200%;
+  background-repeat: no-repeat;
 }
 
 .seat-chart {
   width: 100%;
   margin: 0 auto;
   text-align: center;
+  padding: 7%;
+  background-image: url(images/stage.jpg);
+  background-size: 100% 100%;
+  box-shadow: 10px 10px 5px black;
 
 }
 
@@ -32,7 +43,7 @@ body {
   }
 
 h1 {
-  font-family: Quicksand; Time;
+  font-family: greatVibe; Time;
   text-align: center;
   color: #E8E8E8;
 }
@@ -44,4 +55,22 @@ p {
 .row {
   margin: 0 auto;
   width: 100%;
+}
+#description {
+height: 20%;
+margin: auto;
+padding: 1%;
+text-shadow: 2px 2px 4px black;
+background-image: url(images/red.jpg);
+box-shadow: 10px 10px 5px black;
+}
+
+#bottom {
+background-color: #666666;
+height: 20%;
+margin: auto;
+padding: 3%;
+text-shadow: 2px 2px 4px black;
+background-image: url(images/red.jpg);
+box-shadow: 10px 10px 5px black;
 }
