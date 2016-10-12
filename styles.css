@@ -22,7 +22,7 @@ body {
 
 .available {
   display: block;
-  background-image: url(availableSeat.png);
+  background-image: url(images/availableSeat.png);
   background-repeat: no-repeat;
   background-size: 75%;
   width: 14%;
@@ -30,10 +30,19 @@ body {
   min-height: 100px;
   display: inline-block;
   }
+  .available:hover {
+    background-image: url(images/availableSeatMessage.png);
+    background-repeat: no-repeat;
+    background-size: 75%;
+    width: 14%;
+    margin: 0 auto;
+    min-height: 100px;
+    display: inline-block;
+      }
 
 .reserved {
   display: block;
-  background-image: url(reservedSeat.png);
+  background-image: url(images/reservedSeat.png);
   background-repeat: no-repeat;
   background-size: 75%;
   width: 14%;
@@ -41,6 +50,15 @@ body {
   min-height: 100px;
   display: inline-block;
   }
+    .reserved:hover {
+    background-image: url(images/reservedSeatMessage.png);
+    background-repeat: no-repeat;
+    background-size: 75%;
+    width: 14%;
+    margin: 0 auto;
+    min-height: 100px;
+    display: inline-block;
+      }
 
 h1 {
   font-family: greatVibe; Time;
