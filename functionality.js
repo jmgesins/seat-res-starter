@@ -89,6 +89,7 @@ $('#btnShowNew').click(function () {
 })
 END GAO CODE */
 <<<<<<< HEAD
+<<<<<<< HEAD
 // $( function() {
 //     $( "#dialog" ).dialog();
 //   } );
@@ -115,3 +116,13 @@ $( function() {
     $( "#dialog" ).dialog();
   } );
 >>>>>>> 7be89ba5dd039d7a62c6bb8092dada5abd69e4c3
+=======
+
+
+$( ".available" ).click(
+   function() {
+    $(this).css("background-color", "gray" );
+    $(".seat-chart").append("In a perfect world, our form will appear here and not be static text!");
+ }
+ );
+>>>>>>> 193f14a852c92f2225d433297d98473ebe1bf7bf
