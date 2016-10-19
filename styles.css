@@ -30,7 +30,8 @@ body {
   min-height: 100px;
   display: inline-block;
   }
-  .available:hover {
+
+/*  .available:hover {
     background-image: url(images/availableSeatMessage.png);
     background-repeat: no-repeat;
     background-size: 75%;
@@ -39,6 +40,7 @@ body {
     min-height: 100px;
     display: inline-block;
       }
+      */
 
 .reserved {
   display: block;
