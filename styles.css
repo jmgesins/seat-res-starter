@@ -7,6 +7,7 @@ body {
   background-image: url(images/background4.jpg);
   background-size: 100% 200%;
   background-repeat: no-repeat;
+  color: white;
 }
 
 .seat-chart {
@@ -18,6 +19,9 @@ body {
   background-size: 100% 100%;
   box-shadow: 10px 10px 5px black;
 
+}
+.test {
+  font-color: pink;
 }
 
 .available {
