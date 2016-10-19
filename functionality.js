@@ -1,9 +1,7 @@
-$( ".available" ).hover(
+$( ".available" ).click(
   function() {
-    $( this ).prepend( $( "<span> Hello</span>" ) );
-  }, function() {
-    $( this ).find( "span:last" ).remove();
-  }
+    $("#bottom").text( "This is what I want" );
+  },
 );
 /*
 $(".available").hover(function() {
