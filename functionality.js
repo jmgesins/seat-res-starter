@@ -1,22 +1,85 @@
-<<<<<<< HEAD
-$( ".available" ).hover(function( event ) {
-  if ( $( "input:first" ).val() === "correct" ) {
-    $( "span" ).text( "Validated..." ).show();
-    return;
-  }
+// <<<<<<< HEAD
+// $( ".available" ).hover(function( event ) {
+//   if ( $( "input:first" ).val() === "correct" ) {
+//     $( "span" ).text( "Validated..." ).show();
+//     return;
+//   }
+//
+//   $( "span" ).text( "Not valid!" ).show().fadeOut( 1000 );
+//   event.preventDefault();
+// });
+// =======
+// $( ".available" ).click(
+//   function() {
+//     $(this).css("background-color", "pink" );
+//   }
+// );
+// /*
+// $(".available").hover(function() {
+// 	$("#login-form").slideToogle();
+// });
+// */
+// >>>>>>> 3ff7927803046f704035cc6a556b9883f4afd05a
 
-  $( "span" ).text( "Not valid!" ).show().fadeOut( 1000 );
-  event.preventDefault();
+var settings = {
+               rows: 4,
+               cols: 6,
+               rowCssPrefix: 'row-',
+               colCssPrefix: 'col-',
+               seatWidth: 100,
+               seatHeight: 100,
+               seatCss: 'seat',
+               selectedSeatCss: 'selectedSeat',
+               selectingSeatCss: 'selectingSeat'
+           };
+
+
+var init = function (reservedSeat) {
+                var str = [], seatNo, className;
+                for (i = 0; i < settings.rows; i++) {
+                    for (j = 0; j < settings.cols; j++) {
+                        seatNo = (i + j * settings.rows + 1);
+                        className = settings.seatCss + ' ' + settings.rowCssPrefix + i.toString() + ' ' + settings.colCssPrefix + j.toString();
+                        if ($.isArray(reservedSeat) && $.inArray(seatNo, reservedSeat) != -1) {
+                            className += ' ' + settings.selectedSeatCss;
+                        }
+                        str.push('<li class="' + className + '"' +
+                                  'style="top:' + (i * settings.seatHeight).toString() + 'px;left:' + (j * settings.seatWidth).toString() + 'px">' +
+                                  '<a title="' + seatNo + '">' + seatNo + '</a>' +
+                                  '</li>');
+                    }
+                }
+                $('#place').html(str.join(''));
+            };
+            //case I: Show from starting
+            //init();
+
+            //Case II: If already booked
+            var bookedSeats = [5, 10, 25];
+            init(bookedSeats);
+
+$('.' + settings.seatCss).click(function () {
+if ($(this).hasClass(settings.selectedSeatCss)){
+    alert('This seat is already reserved');
+}
+else{
+    $(this).toggleClass(settings.selectingSeatCss);
+    }
 });
-=======
-$( ".available" ).click(
-  function() {
-    $(this).css("background-color", "pink" );
-  }
-);
-/*
-$(".available").hover(function() {
-	$("#login-form").slideToogle();
-});
-*/
->>>>>>> 3ff7927803046f704035cc6a556b9883f4afd05a
+
+$('#btnShow').click(function () {
+    var str = [];
+    $.each($('#place li.' + settings.selectedSeatCss + ' a, #place li.'+ settings.selectingSeatCss + ' a'), function (index, value) {
+        str.push($(this).attr('title'));
+    });
+    alert(str.join(','));
+})
+
+$('#btnShowNew').click(function () {
+    var str = [], item;
+    $.each($('#place li.' + settings.selectingSeatCss + ' a'), function (index, value) {
+        item = $(this).attr('title');
+        str.push(item);
+    });
+    alert(str.join(','));
+})

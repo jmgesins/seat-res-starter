@@ -20,7 +20,7 @@ body {
 
 }
 
-.available {
+/* .available {
   display: block;
   background-image: url(images/availableSeat.png);
   background-repeat: no-repeat;
@@ -30,7 +30,7 @@ body {
   min-height: 100px;
   display: inline-block;
   }
-
+ */
 /*  .available:hover {
     background-image: url(images/availableSeatMessage.png);
     background-repeat: no-repeat;
@@ -42,7 +42,7 @@ body {
       }
       */
 
-.reserved {
+/* .reserved {
   display: block;
   background-image: url(images/reservedSeat.png);
   background-repeat: no-repeat;
@@ -59,7 +59,7 @@ body {
     width: 14%;
     margin: 0 auto;
     min-height: 100px;
-    display: inline-block;
+    display: inline-block; */
       }
 
 h1 {
@@ -87,10 +87,62 @@ box-shadow: 10px 10px 5px black;
 
 #bottom {
 background-color: #666666;
-height: 20%;
+height: auto;
 margin: auto;
 padding: 3%;
 text-shadow: 2px 2px 4px black;
 background-image: url(images/red.jpg);
 box-shadow: 10px 10px 5px black;
+}
+
+#seatDescription li{
+verticle-align:middle;
+list-style: none outside none;
+padding-left:35px;
+float:left;
+display: block;
+}
+
+#holder{
+height:500px;
+width:650px;
+background-color:#F5F5F5;
+border:1px solid #A4A4A4;
+margin-left:10px;
+
+}
+#place {
+position:relative;
+margin:7px;
+}
+#place a{
+font-size:0.6em;
+}
+#place li
+{
+ list-style: none outside none;
+ position: absolute;
+}
+#place li:hover
+{
+background-color:yellow;
+}
+#place .seat{
+background:url("images/availableSeat.png") no-repeat scroll 0 0 transparent;
+  background-size: 75%;
+  width: 14%;
+  margin: 0 auto;
+  min-height: 100px;
+  display: inline-block;
+}
+#place .selectedSeat
+{
+background-image:url("images/reservedSeat.png");
+}
+#place .selectingSeat
+{
+background-image:url("images/availableSeatMessage.png");
+}
+#place .row-3, #place .row-4{
+margin-top:10px;
 }
