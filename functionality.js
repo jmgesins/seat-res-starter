@@ -26,11 +26,15 @@ var settings = {
                cols: 6,
                rowCssPrefix: 'row-',
                colCssPrefix: 'col-',
-               seatWidth: 100,
-               seatHeight: 100,
+              //  seatWidth: 100,
+              //  seatHeight: 100,
                seatCss: 'seat',
                selectedSeatCss: 'selectedSeat',
                selectingSeatCss: 'selectingSeat'
+               seatWidth: 14%;
+               margin: 0 auto;
+               min-height: 100px;
+               display: inline-block;
            };
 
 
