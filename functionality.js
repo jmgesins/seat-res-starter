@@ -1,7 +1,7 @@
 $( ".available" ).click(
   function() {
-    $("#bottom").text( "This is what I want" );
-  },
+    $(this).css("background-color", "pink" );
+  }
 );
 /*
 $(".available").hover(function() {
