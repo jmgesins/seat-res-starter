@@ -31,7 +31,11 @@ body {
   display: inline-block;
   }
 
+<<<<<<< HEAD
   /*.available:hover {
+=======
+  .available:hover {
+>>>>>>> 7be89ba5dd039d7a62c6bb8092dada5abd69e4c3
     background-image: url(images/availableSeatMessage.png);
     background-repeat: no-repeat;
     background-size: 75%;
@@ -39,7 +43,11 @@ body {
     margin: 0 auto;
     min-height: 100px;
     display: inline-block;
+<<<<<<< HEAD
       }*/
+=======
+      }
+>>>>>>> 7be89ba5dd039d7a62c6bb8092dada5abd69e4c3
 
 
  .reserved {

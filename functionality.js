@@ -88,6 +88,7 @@ $('#btnShowNew').click(function () {
     alert(str.join(','));
 })
 END GAO CODE */
+<<<<<<< HEAD
 // $( function() {
 //     $( "#dialog" ).dialog();
 //   } );
@@ -109,3 +110,8 @@ END GAO CODE */
 //         .append('<input type="hidden" name="selType" id="selType" value="0">')
 //         .append('<input type="hidden" name="selType2" id="selType2" value="2">')
 // });
+=======
+$( function() {
+    $( "#dialog" ).dialog();
+  } );
+>>>>>>> 7be89ba5dd039d7a62c6bb8092dada5abd69e4c3
