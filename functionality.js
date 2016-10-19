@@ -88,6 +88,24 @@ $('#btnShowNew').click(function () {
     alert(str.join(','));
 })
 END GAO CODE */
-$( function() {
-    $( "#dialog" ).dialog();
-  } );
+// $( function() {
+//     $( "#dialog" ).dialog();
+//   } );
+
+
+// $('.available').append("<input type='text'/>");
+// $("<input type='text' />").appendTo('.available');
+
+// $( ".available" ).click(
+//   function() {
+//    $(this).css("background-color", "gray" );
+//    $(".seat-chart").append.('<form id="mySearch"></form>'); //append a new form element with id mySearch to <body>
+//     $('#mySearch')
+//         // .attr("action","mySearchPage.cfm") .attr("method","post") //set the form attributes
+//         // //add in all the needed input elements
+//         .append('<input type="hidden" name="btnSearch" id="btnSearch" value="Search">')
+//         .append('<input type="hidden" name="txtField1" id="txtField1" value="">')
+//         .append('<input type="hidden" name="txtField2" id="txtField2" value="">')
+//         .append('<input type="hidden" name="selType" id="selType" value="0">')
+//         .append('<input type="hidden" name="selType2" id="selType2" value="2">')
+// });
