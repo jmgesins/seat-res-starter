@@ -20,7 +20,7 @@ body {
 
 }
 
-/* .available {
+.available {
   display: block;
   background-image: url(images/availableSeat.png);
   background-repeat: no-repeat;
@@ -30,8 +30,8 @@ body {
   min-height: 100px;
   display: inline-block;
   }
- */
-/*  .available:hover {
+
+  .available:hover {
     background-image: url(images/availableSeatMessage.png);
     background-repeat: no-repeat;
     background-size: 75%;
@@ -40,9 +40,9 @@ body {
     min-height: 100px;
     display: inline-block;
       }
-      */
 
-/* .reserved {
+
+ .reserved {
   display: block;
   background-image: url(images/reservedSeat.png);
   background-repeat: no-repeat;
@@ -59,7 +59,7 @@ body {
     width: 14%;
     margin: 0 auto;
     min-height: 100px;
-    display: inline-block; */
+    display: inline-block;
       }
 
 h1 {
@@ -76,6 +76,7 @@ p {
   margin: 0 auto;
   width: 100%;
 }
+
 #description {
 height: 20%;
 margin: auto;
@@ -94,7 +95,7 @@ text-shadow: 2px 2px 4px black;
 background-image: url(images/red.jpg);
 box-shadow: 10px 10px 5px black;
 }
-
+/*
 #seatDescription li{
 verticle-align:middle;
 list-style: none outside none;
@@ -102,7 +103,7 @@ padding-left:35px;
 float:left;
 display: block;
 }
-
+/*
 #holder{
 height:500px;
 width:650px;
@@ -146,3 +147,4 @@ background-image:url("images/availableSeatMessage.png");
 #place .row-3, #place .row-4{
 margin-top:10px;
 }
+*/
