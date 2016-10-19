@@ -20,7 +20,7 @@
 // });
 // */
 // >>>>>>> 3ff7927803046f704035cc6a556b9883f4afd05a
-
+/*START GAO CODE
 var settings = {
                rows: 4,
                cols: 6,
@@ -87,3 +87,7 @@ $('#btnShowNew').click(function () {
     });
     alert(str.join(','));
 })
+END GAO CODE */
+$( function() {
+    $( "#dialog" ).dialog();
+  } );
