@@ -1,4 +1,4 @@
-// <<<<<<< HEAD
+
 // $( ".available" ).hover(function( event ) {
 //   if ( $( "input:first" ).val() === "correct" ) {
 //     $( "span" ).text( "Validated..." ).show();
@@ -8,7 +8,7 @@
 //   $( "span" ).text( "Not valid!" ).show().fadeOut( 1000 );
 //   event.preventDefault();
 // });
-// =======
+
 // $( ".available" ).click(
 //   function() {
 //     $(this).css("background-color", "pink" );
@@ -19,7 +19,7 @@
 // 	$("#login-form").slideToogle();
 // });
 // */
-// >>>>>>> 3ff7927803046f704035cc6a556b9883f4afd05a
+
 /*START GAO CODE
 var settings = {
                rows: 4,
@@ -88,8 +88,7 @@ $('#btnShowNew').click(function () {
     alert(str.join(','));
 })
 END GAO CODE */
-<<<<<<< HEAD
-<<<<<<< HEAD
+
 // $( function() {
 //     $( "#dialog" ).dialog();
 //   } );
@@ -111,12 +110,6 @@ END GAO CODE */
 //         .append('<input type="hidden" name="selType" id="selType" value="0">')
 //         .append('<input type="hidden" name="selType2" id="selType2" value="2">')
 // });
-=======
-$( function() {
-    $( "#dialog" ).dialog();
-  } );
->>>>>>> 7be89ba5dd039d7a62c6bb8092dada5abd69e4c3
-=======
 
 
 $( ".available" ).click(
@@ -125,4 +118,3 @@ $( ".available" ).click(
     $(".seat-chart").append("In a perfect world, our form will appear here and not be static text!");
  }
  );
->>>>>>> 193f14a852c92f2225d433297d98473ebe1bf7bf
